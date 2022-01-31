@@ -68,7 +68,7 @@ Bridge is a structural design pattern that lets you split a large class or a set
     }
 ```
 
-Using this interfaces we can create several concrete implementations, like Cake and PizzaDough which extend IProduct or Ingredient which extend IIngredient.<br/>
+Using this interfaces we can create several concrete implementations, like Pizza and PizzaDough which extend IProduct or Ingredient which extend IIngredient.<br/>
 Proxy is a structural design pattern that lets you provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object. In the case of our system the proxy is used to control access to the delivery services
 
 ```
